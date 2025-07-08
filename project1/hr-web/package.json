@@ -1,0 +1,61 @@
+{
+  "name": "nexlehr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/*.tsx\" \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.0.0",
+    "@casl/ability": "^6.7.3",
+    "@casl/react": "^5.0.0",
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.14.0",
+    "@hookform/resolvers": "^5.1.1",
+    "@mui/icons-material": "^7.1.1",
+    "@mui/material": "^7.1.1",
+    "@mui/material-nextjs": "^7.1.1",
+    "@mui/x-data-grid": "^8.5.2",
+    "@mui/x-date-pickers": "^8.5.2",
+    "axios": "^1.10.0",
+    "chart.js": "4.5.0",
+    "cookie": "^1.0.2",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "js-cookie": "^3.0.5",
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.58.0",
+    "react-query": "^3.39.3",
+    "uuid": "^11.1.0",
+    "yarn": "^1.22.22",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^4.0.1",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
+    "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.5.3",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "resolutions": {},
+  "packageManager": "yarn@1.22.22"
+}
